@@ -10,6 +10,14 @@ order-service will call the payment-service
 
 # you can test it with postman:
 
+first start registry-service
+
+then run order-service and payment-service
+
+at last run gateway-service
+
+and try to send request via postman by following steps:
+
 url: http://localhost:8888/order/bookorder
 Method: POST
 
@@ -24,3 +32,6 @@ requestBode as Json:
         },
         "payment":{}
     }
+
+
+you can track microservices status by checking http://localhost:8761/ in your browser.
