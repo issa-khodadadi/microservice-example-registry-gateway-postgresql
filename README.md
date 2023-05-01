@@ -1,4 +1,4 @@
-# microservice including (REGISTRY, GATEWAY) plus PostgreSQL
+# microservice example including (REGISTRY, GATEWAY) plus PostgreSQL
 
 this is a simple project to see the architecture of microservice that has a registry service, two microservices that communicate with each other and a gateway to rout
 the client request.
